@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #0f0f0f; zoom: 0.9;}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -644,7 +644,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/latestFilm.mov) no-repeat center center;
+   background: #1F1F1F url(../images/Psalm23.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
