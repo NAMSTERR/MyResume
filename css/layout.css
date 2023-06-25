@@ -23,7 +23,7 @@
 /* ------------------------------------------------------------------ */
 
 body, html {
-   background: #9ff7ff;
+   background: #8dc3c8;
    width: 100%;
    margin: 0;
    padding: 0;
@@ -33,7 +33,7 @@ body, html {
    /* max-width: 2600px; */
    max-width: 100%;
    margin: 0 auto;
-   padding: 0 20px;
+   padding: 0px;
 }
 
 
@@ -52,6 +52,13 @@ header {
    text-align: center;
    overflow: hidden;
 }
+
+@media screen and (max-width: 767px) {
+   header {
+      height: auto;
+   }
+}
+
 
 /* vertically center banner section */
 header:before {
